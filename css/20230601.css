@@ -1,0 +1,28 @@
+        :root {
+            --mycolor01: #5580A0; 
+            --mycolor02: #CC8A4D;
+            --bean:#fa0;     
+            --eggplant: #824880;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #fa0;
+            background-color: var(--mycolor02);
+        }
+
+        .box01 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #fa0;
+            padding: 10px;
+            box-sizing: border-box
+        }
+
+        .box02 {
+            width: 150px;
+            height: 150px;
+            border: 2px solid #5580A0;
+            background-color: var(--mycolor01);
+        }

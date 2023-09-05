@@ -1,0 +1,60 @@
+:root {
+    --blue: #5580A0;
+    --orange: #CC8A4D;
+    --bean: #96514D;
+    --eggplant: #824880;
+    --green:#78A355; /*柳色*/
+    --grass:#225A1F;
+    --beige:#B69968;  /*亞麻*/
+    --skin:#FEDCBD;/*皮膚色*/
+    --lightpurple:#D7D3F0;
+    --grey:#E1DCD9;
+/* victoria */
+    --vic01:#e8e7d2;
+    --vic02:#d2d5b8;
+    --vic03:#bdc2bb;
+    --vic04:#c9ba9b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+
+
+.demo {
+    border: 2px solid red;
+    margin: 15px;
+    padding: 15px;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-900 {
+    font-weight: 900;
+}
+
+.box01{
+    height:120px;
+    border:2px solid #225A1F;
+    background-color: #B69968;
+}
+.box02{
+    height:120px;
+    border:2px solid #225A1F;
+    background-color: #B69968;
+}
+
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}
